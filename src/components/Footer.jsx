@@ -6,9 +6,7 @@ export const Footer = () => {
          className="footer"
         >
             <div className="text-center item-center justify-center">
-                &copy; 2025
-
-                <p>{import.meta.env.VITE_PUBLIC_KEY}</p>
+                &copy; 2025 Best. All right reserved.
 
             </div>
         </section>

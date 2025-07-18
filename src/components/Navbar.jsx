@@ -1,4 +1,6 @@
 import { useEffect } from "react";
+import bestLogo from '../assets/img/best-logo.png'; // Adjust path relative to Navbar.jsx
+
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
 
@@ -11,7 +13,12 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
             <div className="max-w-5xl mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
                     {""}
-                    <a href="#home" className="font-mono text-lx text-white">Lo<span className="text-blue-500">go</span>{" "}</a>
+                    <a href="#home" className="font-mono text-lx text-white">
+                        <div className="flex items-center space-x-2">
+                            <img src={bestLogo} alt="Brand Logo" width={24} />
+                            <span className="text-blue-500">Best Onyekachi</span>{" "}
+                        </div>
+                    </a>
 
                     
                     <div className="w-7 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
