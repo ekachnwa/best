@@ -2,7 +2,7 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
 
-    const frontendSkills = ["React", "TypeScript", "JavaScript", "HTML", "CSS", "Tailwind", "Bootstrap"];
+    const frontendSkills = ["React", "JavaScript", "TypeScript", "Figma", "Tailwind", "Bootstrap"];
     const backendSkills = ["PHP", "SQL","Python", "MySQL", "Laravel"];
 
     return (
@@ -64,7 +64,10 @@ export const About = () => {
                         <h3 className="text-xl font-bold mb-4">💼 Work Experience</h3>
                         <div className="space-y-4 text-gray-300">
                             <div>
-                                <h4>Software Engineer at ABC Corp (2020 - Present)</h4>
+                                <h4>UI/UX Designer at Copaly (2025)</h4>
+                                <h4>Frontend web Dev. at Koxbite (2024)</h4>
+                                <h4>ICT Director. at Liverygems (2024)</h4> 
+                                <h4>Tech Lead at Rexsons Ltd (2023)</h4>
                             </div>
                         </div>
                     </div>

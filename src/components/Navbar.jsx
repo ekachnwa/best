@@ -19,7 +19,6 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                             <span className="text-blue-500">Onyekachi</span>{" "}
                         </div>
                     </a>
-
                     
                     <div className="w-7 relative cursor-pointer z-40 md:hidden" onClick={() => setMenuOpen((prev) => !prev)}>
                         &#9776; 
