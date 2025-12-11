@@ -16,7 +16,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     <a href="#home" className="font-mono text-lx text-white">
                         <div className="flex items-center space-x-2">
                             <img src={bestLogo} alt="Brand Logo" width={24} />
-                            <span className="text-blue-500">Best Onyekachi</span>{" "}
+                            <span className="text-blue-500">Onyekachi</span>{" "}
                         </div>
                     </a>
 

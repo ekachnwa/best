@@ -6,8 +6,9 @@ export const Footer = () => {
          className="footer"
         >
             <div className="text-center item-center justify-center">
-                &copy; 2025 Best. All right reserved.
-
+                &copy; 
+                {new Date().getFullYear()} Nwaogwu Onyekachi 
+                <span className="text-blue-500">Best</span>. All rights reserved.
             </div>
         </section>
     )
