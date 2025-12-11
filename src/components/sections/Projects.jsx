@@ -29,7 +29,7 @@ export const Projects = () => {
                                         {tech}</span>)}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
+                                <a href="https://koxbite.com" tabIndex="_blank" className="text-blue-400 hover:text-blue-300 transition-colors my-4">View Project →</a>
                             </div>
                         </div>
 
